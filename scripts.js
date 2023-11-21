@@ -26,5 +26,23 @@ document.write(num1 + num2);
 
 //-------------------------------------------------------------------------------------------------------------
 
+// Compararea Obiectelor
 
+const firstBook = {
+    id: 1,
+    title: "Harry Potter",
+    date: "15.11.2020"
+}
+console.log(firstBook);
+const secondBook = {
+    id: 1,
+    title: "Back to the future",
+    date: "20.06.2019"
+}
+const theOtherBook = {
+    id: 1,
+    title: "Harry Potter",
+    date: "15.11.2020"
+}
 
+//-----------------------------------------------------------------------------------------------------------
