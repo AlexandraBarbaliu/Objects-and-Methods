@@ -5,8 +5,8 @@ function createPerson(name, age, city) {
         name: name,
         age: age,
         city: city,
-        salutation: function () { 
-        console.log("Hello, I am " + this.name + ", I have " + this.age + "years old", ",I am from" + this.city);
+        salutation: function () {
+            console.log("Hello, I am " + this.name + ", I have " + this.age + "years old", ",I am from" + this.city);
         }
     };
 }
@@ -23,4 +23,8 @@ num1 = parseFloat(num1);
 num2 = parseFloat(num2);
 
 document.write(num1 + num2);
+
+//-------------------------------------------------------------------------------------------------------------
+
+
 
